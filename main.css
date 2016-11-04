@@ -53,19 +53,19 @@ html, body {
   background: #eff1f4;
 }
 
-.social-link {
+a {
   text-decoration: none !important;
 }
 
-.social-link:link {
+social:link {
   color: #a7aeba;
 }
 
-.social-link:hover {
+social:hover {
   color: inherit;
 }
 
-.social-link-text, .emphasis {
+.emphasis {
   font-size: 145%;
   color: #a7aeba;
   transition: color .5s;
@@ -100,6 +100,39 @@ html, body {
 
 .text-center {
   text-align: center
+}
+
+td, th {
+  font-size: 150%;
+  padding: 0;
+}
+
+.project-listing {
+  margin: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: #a5b3c9;
+}
+
+.project-listing:link {
+  color: #a5b3c9;
+}
+
+.project-listing:hover {
+  color: #70819e;
+}
+
+.project-listing:active {
+  color: #59616d;
+}
+
+#avatar-logo {
+  width: 270px;
+}
+
+.copyright {
+  margin-top: 3em;
 }
 
 @media only screen and (min-width: 769px) {
