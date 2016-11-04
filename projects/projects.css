@@ -30,6 +30,12 @@
   width: 350px;
 }
 
+.btn-return {
+  position: absolute;
+  top: 10;
+  left: 10;
+}
+
 @media only screen and (min-width: 769px) {
   .row-mobile {
     display: none;
