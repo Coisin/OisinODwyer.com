@@ -1,0 +1,27 @@
+#hero-mangaraptor {
+  background: url("../resources/hero-mangaraptor.png");
+  background-size: cover;
+}
+
+#mangaraptor-1 {
+  background: url("../resources/mangaraptor-1.png");
+  background-size: cover;
+}
+
+#anime-1 {
+  background-image: url("../resources/anime-1.jpg");
+  background-attachment: fixed;
+}
+
+.btn-code {
+  background: #ced6e2;
+  transition: background .5s;
+}
+
+.btn-code:hover {
+  background: #8b8d91;
+}
+
+.btn-code:active {
+  background: #3d3e3f;
+}

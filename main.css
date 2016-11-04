@@ -7,7 +7,7 @@ html, body {
   box-sizing: border-box;
 }
 
-#overlay {
+.overlay {
 
   position: fixed;
   top: 0;
@@ -26,14 +26,21 @@ html, body {
   background: #1f1f21;
 }
 
+.overlay-clickable {
+  pointer-events: all;
+}
+
 .overlay-title {
   font-size: 4em;
 }
 
-.hero {
-  height: 600px;
+#hero-index {
   background: url("resources/hero.JPG") no-repeat center center;
   background-size: cover;
+}
+
+.hero {
+  height: 600px;
 }
 
 .row {
