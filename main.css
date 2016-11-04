@@ -62,6 +62,11 @@ html, body {
 .social-link-text, .emphasis {
   font-size: 145%;
   color: #a7aeba;
+  transition: color .5s;
+}
+
+.social-link-text:hover, .emphasis:hover {
+  color: black;
 }
 
 .col-md-6 {
