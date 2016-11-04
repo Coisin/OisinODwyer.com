@@ -39,7 +39,8 @@ html, body {
 
 .row {
   font-family: 'Josefin Sans';
-  padding: 4em 3em;
+  padding-top: 4em;
+  padding-bottom: 4em;
 }
 
 .row:nth-child(2n + 3) {
@@ -64,7 +65,7 @@ html, body {
 }
 
 .col-md-6 {
-  padding: 1em;
+  padding-top: 2em;
 }
 
 #social-img, #smile-img, #bio-img {
@@ -80,10 +81,26 @@ html, body {
 }
 
 #footer {
-  padding: 3em 7em;
+  padding: 3em 0;
   background: #b8bbc1;
 }
 
 .text-center {
   text-align: center
+}
+
+@media (min-width: 768px) {
+  .row {
+    padding-left:3em;
+    padding-right: 3em;
+  }
+}
+
+@media (max-width: 768px) {
+  row {
+    padding: 0;
+  }
+  #overlay, #social-img {
+    display: none;
+  }
 }
