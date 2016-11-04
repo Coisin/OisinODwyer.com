@@ -89,14 +89,14 @@ html, body {
   text-align: center
 }
 
-@media (min-width: 768px) {
+@media only screen and (min-width: 768px) {
   .row {
     padding-left:3em;
     padding-right: 3em;
   }
 }
 
-@media (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   row {
     padding: 0;
   }
