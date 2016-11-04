@@ -102,7 +102,7 @@ html, body {
   text-align: center
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 769px) {
   .row {
     padding-left:3em;
     padding-right: 3em;
@@ -110,7 +110,7 @@ html, body {
 }
 
 @media only screen and (max-width: 768px) {
-  #hero-index {
+  .hero-responsive {
     height: 200px;
   }
   row {

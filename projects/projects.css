@@ -29,3 +29,16 @@
 #mangaraptor-logo {
   width: 350px;
 }
+
+@media only screen and (min-width: 769px) {
+  .row-mobile {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .hero-responsive {
+    height: 400px;
+    padding-left: 1em;
+  }
+}
