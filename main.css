@@ -58,7 +58,7 @@ html, body {
   color: inherit;
 }
 
-.social-link-text {
+.social-link-text, .emphasis {
   font-size: 145%;
   color: #a7aeba;
 }
