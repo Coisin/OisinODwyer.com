@@ -85,9 +85,11 @@ html, body {
   margin-right: auto;
 }
 
-#bio-img {
+.img-round {
   border-radius: 50%;
-  border: 5px black;
+}
+
+#bio-img {
   width: 250px;
 }
 
@@ -108,13 +110,13 @@ html, body {
 }
 
 @media only screen and (max-width: 768px) {
-  .hero {
+  #hero-index {
     height: 200px;
   }
   row {
     padding: 0;
   }
-  #overlay, #social-img {
+  .overlay, #social-img {
     display: none;
   }
 }
