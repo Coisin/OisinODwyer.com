@@ -40,3 +40,7 @@
 .instruction-list li {
   list-style-type: decimal;
 }
+
+pre {
+  overflow: hidden;
+}
