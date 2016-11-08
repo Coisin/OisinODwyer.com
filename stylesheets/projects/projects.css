@@ -1,3 +1,27 @@
+.btn-return {
+  background: transparent;
+  border-radius: 5px;
+  border-color: rgb(178, 184, 193);
+  color: rgb(178, 184, 193);
+  border-width: 2px;
+}
+
+.btn-return:hover {
+  color: rgb(178, 184, 193);
+}
+
+.btn-return:active {
+  color: rgb(178, 184, 193);
+}
+
+.btn-return:link {
+  color: rgb(178, 184, 193);
+}
+
+.row-mobile .btn-return {
+  margin-bottom: 2em;
+}
+
 .btn-code {
   background: #ced6e2;
   transition: background .5s;
@@ -9,12 +33,6 @@
 
 .btn-code:active {
   background: #3d3e3f;
-}
-
-.btn-return {
-  position: absolute;
-  top: 10;
-  left: 10;
 }
 
 .availability-table {
