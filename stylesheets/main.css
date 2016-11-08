@@ -116,11 +116,12 @@ li {
 
 @media only screen and (max-width: 768px) {
   .hero-responsive {
-    height: 400px;
+    height: 200px;
     padding-left: 1em;
   }
-  row {
-    padding: 0;
+  .row {
+    padding-left: 3px;
+    padding-right: 3px;
   }
   .row-no-mobile {
     display: none;
