@@ -1,0 +1,34 @@
+.btn-code {
+  background: #ced6e2;
+  transition: background .5s;
+}
+
+.btn-code:hover {
+  background: #8b8d91;
+}
+
+.btn-code:active {
+  background: #3d3e3f;
+}
+
+.btn-return {
+  position: absolute;
+  top: 10;
+  left: 10;
+}
+
+.availability-table {
+  background: #666a72;
+}
+
+.availability-table tr:hover {
+  background: #999ea8;
+}
+
+.project-link {
+  color: #242628;
+}
+
+.project-link:hover {
+  color: #1b1b1c;
+}

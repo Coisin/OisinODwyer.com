@@ -1,0 +1,18 @@
+#hero-tables-1 {
+  background: url("../../resources/hero-tables-1.png");
+  background-size: cover;
+}
+
+#hero-tables-2 {
+  background: url("../../resources/hero-tables-2.png");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.row:nth-child(2n + 1) {
+  background: #fffdf4;
+}
+
+.code-info {
+  margin: 2em 0;
+}
