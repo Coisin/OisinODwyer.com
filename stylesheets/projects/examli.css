@@ -1,0 +1,13 @@
+#examli-1 {
+  background-image: url("../../resources/examli-1.jpg");
+}
+
+#examli-2 {
+  background: url("../../resources/examli-2.png");
+  background-size: cover;
+}
+
+#examli-3 {
+  background: url("../../resources/examli-3.png");
+  background-size: cover;
+}
