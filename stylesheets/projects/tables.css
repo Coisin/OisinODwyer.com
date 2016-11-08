@@ -4,9 +4,9 @@
 }
 
 #hero-tables-2 {
-  background: url("../../resources/mangaraptor-1.png");
+  background-image: url("../../resources/hero-tables-2.png");
   background-size: cover;
-  background-attachment: fixed;
+  background-position: center center;
 }
 
 .row:nth-child(2n + 1) {

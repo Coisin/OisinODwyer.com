@@ -104,6 +104,10 @@ li {
   list-style-type: none;
 }
 
+.scroll-fixed {
+  background-attachment: fixed;
+}
+
 @media only screen and (min-width: 769px) {
   .row {
     padding-left:3em;
@@ -128,5 +132,8 @@ li {
   }
   .overlay {
     display: none;
+  }
+  .scroll-fixed {
+    background-attachment: scroll;
   }
 }
