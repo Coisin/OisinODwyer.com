@@ -1,5 +1,5 @@
 $(function() {
-  initialOpacity = .8;
+  initialOpacity = .9;
   totalFadeHeight = 1000;
   setOverlayOpacity();
 });

@@ -32,3 +32,11 @@
 .project-link:hover {
   color: #1b1b1c;
 }
+
+.instruction-list {
+  font-size: 125%;
+}
+
+.instruction-list li {
+  list-style-type: decimal;
+}

@@ -100,6 +100,10 @@ td a {
   height: 100%;
 }
 
+li {
+  list-style-type: none;
+}
+
 @media only screen and (min-width: 769px) {
   .row {
     padding-left:3em;
