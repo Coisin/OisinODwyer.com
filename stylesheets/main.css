@@ -160,6 +160,6 @@ li {
     display: none;
   }
   .scroll-fixed {
-    background-attachment: scroll;
+    background-attachment: scroll !important;
   }
 }
