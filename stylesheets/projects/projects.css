@@ -1,20 +1,12 @@
 .btn-return {
   background: transparent;
   border-radius: 5px;
+  border-width: 2px;
   border-color: rgb(178, 184, 193);
   color: rgb(178, 184, 193);
-  border-width: 2px;
 }
 
-.btn-return:hover {
-  color: rgb(178, 184, 193);
-}
-
-.btn-return:active {
-  color: rgb(178, 184, 193);
-}
-
-.btn-return:link {
+.btn-return:link, .btn-return:active, .btn-return:hover, .btn-return:focus, .btn-return:visited {
   color: rgb(178, 184, 193);
 }
 
@@ -22,20 +14,8 @@
   margin-bottom: 2em;
 }
 
-.btn-code {
-  background: #ced6e2;
-  transition: background .5s;
-}
-
-.btn-code:hover {
-  background: #8b8d91;
-}
-
-.btn-code:active {
-  background: #3d3e3f;
-}
-
 .availability-table {
+  width: 380px;
   background: #39393a;
 }
 
@@ -43,7 +23,7 @@
   background: #999ea8;
 }
 
-.project-link {
+.project-link, .project-link:focus, .project-link:visited, .project-link:link, .project-link:active {
   color: #6e7075;
 }
 

@@ -1,17 +1,13 @@
-#hero-mangaraptor {
-  background: url("../../resources/hero-mangaraptor.png");
+#raptor-1 {
+  background: url("../../resources/raptor-1.png");
   background-size: cover;
 }
 
-#mangaraptor-1 {
-  background: url("../../resources/mangaraptor-1.png");
+#raptor-2 {
+  background-image: url("../../resources/raptor-2.jpg");
+}
+
+#raptor-3 {
+  background: url("../../resources/raptor-3.png");
   background-size: cover;
-}
-
-#anime-1 {
-  background-image: url("../../resources/anime-1.jpg");
-}
-
-#mangaraptor-logo {
-  width: 350px;
 }

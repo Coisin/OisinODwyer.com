@@ -1,5 +1,5 @@
-#hero-index {
-  background: url("../resources/hero.JPG") no-repeat center center;
+#index-1 {
+  background: url("../resources/index-1.jpg") no-repeat center center;
   background-size: cover;
 }
 
@@ -7,7 +7,7 @@
   background: #eff1f4;
 }
 
-#social-img, #smile-img, #bio-img {
+#social-img,  #bio-img {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -17,24 +17,16 @@
   width: 250px;
 }
 
-.project-listing {
-  color: #a5b3c9;
+.project-list tr:hover {
+  background: #dce0e8;
 }
 
-.project-listing:hover {
-  background: #dee2e8;
-}
-
-.project-listing:link {
+.project-listing:active, .project-listing:link, .project-listing, .project-listing:focus, .project-listing:visited {
   color: #a5b3c9;
 }
 
 .project-listing:hover {
   color: #70819e;
-}
-
-.project-listing:active {
-  color: #59616d;
 }
 
 #avatar-logo {

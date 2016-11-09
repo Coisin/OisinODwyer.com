@@ -36,7 +36,7 @@ html, body {
 
 .overlay-top {
   padding: 2em 3em;
-  margin-bottom: 40px;
+  margin-bottom: 80px;
 }
 
 .hero {
@@ -52,14 +52,6 @@ html, body {
 
 a {
   text-decoration: none !important;
-}
-
-social:link {
-  color: #a7aeba;
-}
-
-social:hover {
-  color: inherit;
 }
 
 .emphasis {
@@ -111,7 +103,7 @@ li {
 }
 
 .scroll-fixed {
-  background-attachment: fixed;
+  background-attachment: fixed !important;
 }
 
 @media only screen and (min-width: 769px) {
