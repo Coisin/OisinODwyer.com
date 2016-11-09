@@ -17,6 +17,11 @@
   color: rgb(178, 184, 193);
 }
 
+.btn-return-lg {
+  border: none;
+  border-bottom: 1px dotted rgb(178, 184, 193);
+}
+
 .btn-return:link, .btn-return:active, .btn-return:hover, .btn-return:focus, .btn-return:visited {
   color: rgb(178, 184, 193);
 }
