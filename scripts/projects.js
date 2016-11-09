@@ -5,7 +5,7 @@ $(function() {
 });
 
 function preProject() {
-  projectType = getQueryVariable("p");
+  projectType = getQueryVariable("p") || "default";
   project = projectData[projectType];
 }
 
@@ -20,6 +20,13 @@ function initializeLayout() {
   for(var i = 1;i <= project.numRows;i++) {
     $(".container-fluid").append("<div class='row hero"+(i % 2 == 0?" scroll-fixed":"")+"' id='"+projectType+"-"+i+"'></div>");
     $("#"+projectType+"-"+i).html(project.rows[i - 1].content);
+  }
+  $(".btn-return").attr("href", project.returnLink).html(project.returnDisplay);
+  for(var i = 0;i < project.postFunctions.length;i++) {
+    project.postFunctions[i]();
+  }
+  if(project.links.length == 0) {
+    $("#title-link").hide();
   }
 }
 
@@ -36,8 +43,8 @@ function getQueryVariable(variable)
        var query = window.location.search.substring(1);
        var vars = query.split("&");
        for (var i=0;i<vars.length;i++) {
-               var pair = vars[i].split("=");
-               if(pair[0] == variable){return pair[1];}
+          var pair = vars[i].split("=");
+          if(pair[0] == variable){return pair[1];}
        }
        return(false);
 }

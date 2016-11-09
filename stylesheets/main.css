@@ -7,6 +7,29 @@ html, body {
   box-sizing: border-box;
 }
 
+.project-list tr:hover {
+  background: #dce0e8;
+}
+
+.project-listing:active, .project-listing:link, .project-listing, .project-listing:focus, .project-listing:visited {
+  color: #a5b3c9;
+}
+
+.project-listing:hover {
+  color: #70819e;
+}
+
+.project-list-lg tr {
+  height: 150px;
+  border-bottom: 1px solid #d9dce0;
+
+  font-size: 150%;
+}
+
+.project-list-lg tr:hover {
+  background: #eff0f2;
+}
+
 .overlay {
 
   position: fixed;
@@ -86,6 +109,7 @@ table {
 }
 
 td, th {
+  height: 100%;
   font-size: 150%;
   padding: 0;
 }

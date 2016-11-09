@@ -1,3 +1,14 @@
+#default-1 {
+  background: url("../../resources/index-1.jpg");
+  background-size: cover;
+}
+
+#default-2 {
+  background: url("../../resources/default-2.jpg");
+  background-size: cover;
+  background-position: bottom center;
+}
+
 .btn-return {
   background: transparent;
   border-radius: 5px;

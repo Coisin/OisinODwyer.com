@@ -1,3 +1,7 @@
+a:hover,  a:link, a:visited, a:focus, a:active {
+  color: inherit;
+}
+
 #index-1 {
   background: url("../resources/index-1.jpg") no-repeat center center;
   background-size: cover;
@@ -15,18 +19,6 @@
 
 #bio-img {
   width: 250px;
-}
-
-.project-list tr:hover {
-  background: #dce0e8;
-}
-
-.project-listing:active, .project-listing:link, .project-listing, .project-listing:focus, .project-listing:visited {
-  color: #a5b3c9;
-}
-
-.project-listing:hover {
-  color: #70819e;
 }
 
 #avatar-logo {

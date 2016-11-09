@@ -1,3 +1,5 @@
+var projectCSSDirectory = "stylesheets/projects/";
+
 projectData = {
     tables: {
     name: "Tables",
@@ -5,8 +7,10 @@ projectData = {
     to tables in your Java Swing applications.`,
     links: ["https://www.github.com/coisin/javatables", "https://github.com/Coisin/JavaTables/releases/latest"],
     linkDisplays: ["Github.com/Coisin/JavaTables", "Download"],
-    stylesheet: "stylesheets/projects/tables.css",
+    stylesheet: projectCSSDirectory +"tables.css",
     favicon: "",
+    returnLink: "project.html",
+    returnDisplay: "Return to Projects",
     numRows: 3,
     rows: [
       {},
@@ -53,7 +57,8 @@ projectData = {
           </code>
         </pre>`
       }
-    ]
+    ],
+    postFunctions: []
   },
   raptor: {
   name: "MangaRaptor",
@@ -62,9 +67,11 @@ onto your computer, in the form of picture files, all for free! The images are s
 and Manga3.net.`,
   links: ["https://www.github.com/Coisin/MangaRaptor", "https://github.com/Coisin/MangaRaptor/releases/latest"],
   linkDisplays: ["Github.com/Coisin/MangaRaptor", "Download"],
-  stylesheet: "stylesheets/projects/mangaraptor.css",
+  stylesheet: projectCSSDirectory +"raptor.css",
   favicon: "resources/mangaraptor-2.png",
   numRows: 4,
+  returnLink: "project.html",
+  returnDisplay: "Return to Projects",
   rows: [
     {},
     {},
@@ -84,8 +91,9 @@ and Manga3.net.`,
                 in which to download your Manga.</li>
             <li>Click the "Download" button beneath the Downloads Table.</li>
           </ul>`
-    }
-  ]
+    },
+  ],
+  postFunctions: []
   },
   examli: {
   name: "Examli",
@@ -93,13 +101,42 @@ and Manga3.net.`,
   manor. I was one of two people who contributed to this project (The other being <a href="http://www.gytdau.com/">Gytis Daujotas</a>).`,
   links: ["http://www.exam.li/"],
   linkDisplays: ["Exam.li"],
-  stylesheet: "stylesheets/projects/examli.css",
+  stylesheet: projectCSSDirectory +"examli.css",
   favicon: "",
+  returnLink: "project.html",
+  returnDisplay: "Return to Projects",
   numRows: 3,
   rows: [
     {},
     {},
     {}
-  ]
+  ],
+  postFunctions: []
   },
-}
+  default: {
+    name: "Projects",
+    description: `Here is a list of many projects which I have participated in.`,
+    favicon: "resources/avatar.png",
+    returnLink: "index.html",
+    returnDisplay: "Return to Ois&#237n O'Duibhir",
+    numRows: 3,
+    links: [],
+    linkDisplays: [],
+    stylesheet: "",
+    rows: [
+      {},
+      {},
+      {
+        content: `  <table class="project-list project-list-lg"></table>`
+      }
+    ],
+    postFunctions: [
+      function() {
+        for(var i in projectData) {
+          if(i == "default") continue;
+          $(".project-list").append("<tr><td><a href='project.html?p=" + i + "' class='project-listing'>" + projectData[i].name + "</a></td></tr>");
+        }
+      }
+    ]
+  }
+};
