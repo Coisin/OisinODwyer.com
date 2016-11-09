@@ -9,6 +9,14 @@
   background-position: bottom center;
 }
 
+#default-3 {
+  padding: 0;
+}
+
+.project-list tr:hover {
+  background: #eff0f2;
+}
+
 .btn-return {
   background: transparent;
   border-radius: 5px;
@@ -17,17 +25,14 @@
   color: rgb(178, 184, 193);
 }
 
-.btn-return-lg {
+.row-mobile .btn-return {
   border: none;
   border-bottom: 1px dotted rgb(178, 184, 193);
+  margin-bottom: 2em;
 }
 
 .btn-return:link, .btn-return:active, .btn-return:hover, .btn-return:focus, .btn-return:visited {
   color: rgb(178, 184, 193);
-}
-
-.row-mobile .btn-return {
-  margin-bottom: 2em;
 }
 
 .availability-table {
@@ -37,14 +42,6 @@
 
 .availability-table tr:hover {
   background: #999ea8;
-}
-
-.project-link, .project-link:focus, .project-link:visited, .project-link:link, .project-link:active {
-  color: #6e7075;
-}
-
-.project-link:hover {
-  color: #1b1b1c;
 }
 
 .instruction-list {

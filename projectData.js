@@ -134,7 +134,7 @@ and Manga3.net.`,
       function() {
         for(var i in projectData) {
           if(i == "default") continue;
-          $(".project-list").append("<tr><td><a href='project.html?p=" + i + "' class='project-listing'>" + projectData[i].name + "</a></td></tr>");
+          $(".project-list").append("<tr><td><a href='project.html?p=" + i + "' class='project-listing grey-trans'>" + projectData[i].name + "</a></td></tr>");
         }
       }
     ]

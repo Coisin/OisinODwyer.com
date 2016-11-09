@@ -14,7 +14,7 @@ function initializeLayout() {
   $(".project-description").html(project.description);
   $(".project-favicon").attr("href", project.favicon);
   for(var i = 0;i < project.links.length;i++) {
-    $(".availability-table").append("<tr><td><a href='"+project.links[i]+"' class='project-link'>"+project.linkDisplays[i]+"</a></td></tr>");
+    $(".availability-table").append("<tr><td><a href='"+project.links[i]+"' class='project-link light-grey-trans'>"+project.linkDisplays[i]+"</a></td></tr>");
   }
   $(".project-stylesheet").attr("href", project.stylesheet);
   for(var i = 1;i <= project.numRows;i++) {

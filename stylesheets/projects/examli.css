@@ -1,5 +1,7 @@
 #examli-1 {
-  background-image: url("../../resources/examli-1.jpg");
+  background: url("../../resources/examli-1.jpg");
+  background-size: cover;
+  background-position: bottom center;
 }
 
 #examli-2 {

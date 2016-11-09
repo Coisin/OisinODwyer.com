@@ -7,16 +7,16 @@ html, body {
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none !important;
+}
+
+a:hover,  a:link, a:visited, a:focus, a:active {
+  color: inherit;
+}
+
 .project-list tr:hover {
   background: #dce0e8;
-}
-
-.project-listing:active, .project-listing:link, .project-listing, .project-listing:focus, .project-listing:visited {
-  color: #a5b3c9;
-}
-
-.project-listing:hover {
-  color: #70819e;
 }
 
 .project-list-lg tr {
@@ -26,8 +26,24 @@ html, body {
   font-size: 150%;
 }
 
-.project-list-lg tr:hover {
-  background: #eff0f2;
+.grey-trans, .grey-trans:active, .grey-trans:link, .grey-trans:focus, .grey-trans:visited {
+  color: #a5b3c9;
+}
+
+.black-trans, .black-trans:active, .black-trans:link, .black-trans:focus, .black-trans:visited {
+  color: rgb(55, 58, 60);
+}
+
+.black-trans:hover, .grey-trans:hover {
+  color: #70819e;
+}
+
+.light-grey-trans, .light-grey-trans:active, .light-grey-trans:link, .light-grey-trans:focus, .light-grey-trans:visited {
+  color: #6e7075;
+}
+
+.light-grey-trans:hover {
+  color: #1b1b1c;
 }
 
 .overlay {
@@ -73,31 +89,18 @@ html, body {
   padding-bottom: 4em;
 }
 
-a {
-  text-decoration: none !important;
-}
-
 .emphasis {
   font-size: 145%;
   color: #a7aeba;
   transition: color .5s;
 }
 
-.social-link-text:hover, .emphasis:hover {
+.emphasis:hover {
   color: black;
-}
-
-.col-md-6 {
-  padding-top: 2em;
 }
 
 .img-round {
   border-radius: 50%;
-}
-
-#footer {
-  padding: 3em 0;
-  background: #b8bbc1;
 }
 
 .text-center {
@@ -130,10 +133,6 @@ li {
   background-attachment: fixed !important;
 }
 
-.row-mobile {
-  overflow: auto;
-}
-
 @media only screen and (min-width: 769px) {
   .row {
     padding-left:3em;
@@ -147,11 +146,10 @@ li {
 @media only screen and (max-width: 768px) {
   .hero-responsive {
     height: 200px;
-    padding-left: 1em;
   }
   .row {
-    padding-left: 3px;
-    padding-right: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
   }
   .row-no-mobile {
     display: none;
