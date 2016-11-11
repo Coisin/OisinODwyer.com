@@ -18,7 +18,7 @@ function initializeLayout() {
   }
   $(".project-stylesheet").attr("href", project.stylesheet);
   for(var i = 1;i <= project.numRows;i++) {
-    $(".container-fluid").append("<div class='row hero"+(i % 2 == 0?" scroll-fixed":"")+"' id='"+projectType+"-"+i+"'></div>");
+    $(".container-fluid").append("<div class='row hero " + (project.rows[i - 1].class == null?"":project.rows[i - 1].class + " ") +(i % 2 == 0?"scroll-fixed":"")+"' id='"+projectType+"-"+i+"'></div>");
     $("#"+projectType+"-"+i).html(project.rows[i - 1].content);
   }
   $(".btn-return").attr("href", project.returnLink).html(project.returnDisplay);

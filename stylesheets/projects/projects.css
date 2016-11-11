@@ -17,24 +17,6 @@
   background: #eff0f2;
 }
 
-.btn-return {
-  background: transparent;
-  border-radius: 5px;
-  border-width: 2px;
-  border-color: rgb(178, 184, 193);
-  color: rgb(178, 184, 193);
-}
-
-.row-mobile .btn-return {
-  border: none;
-  border-bottom: 1px dotted rgb(178, 184, 193);
-  margin-bottom: 2em;
-}
-
-.btn-return:link, .btn-return:active, .btn-return:hover, .btn-return:focus, .btn-return:visited {
-  color: rgb(178, 184, 193);
-}
-
 .availability-table {
   width: 380px;
   background: #39393a;

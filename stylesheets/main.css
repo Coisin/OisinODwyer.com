@@ -11,8 +11,30 @@ a {
   text-decoration: none !important;
 }
 
+.complete-transition {
+  transition: all .5s;
+}
+
 a:hover,  a:link, a:visited, a:focus, a:active {
   color: inherit;
+}
+
+.btn-return {
+  background: transparent;
+  border-radius: 5px;
+  border-width: 2px;
+  border-color: rgb(178, 184, 193);
+  color: rgb(178, 184, 193);
+}
+
+.row-mobile .btn-return {
+  border: none;
+  border-bottom: 1px dotted rgb(178, 184, 193);
+  margin-bottom: 2em;
+}
+
+.btn-return:link, .btn-return:active, .btn-return:hover, .btn-return:focus, .btn-return:visited {
+  color: rgb(178, 184, 193);
 }
 
 .project-list tr:hover {
@@ -44,6 +66,16 @@ a:hover,  a:link, a:visited, a:focus, a:active {
 
 .light-grey-trans:hover {
   color: #1b1b1c;
+}
+
+.green-trans, .green-trans:active, .green-trans:link, .green-trans:focus, .green-trans:visited {
+  color: #a5b3c9;
+  border-color: #a5b3c9;
+}
+
+.green-trans:hover {
+  color: green;
+  border-color: green;
 }
 
 .overlay {
@@ -81,6 +113,10 @@ a:hover,  a:link, a:visited, a:focus, a:active {
 .hero {
   height: 600px;
   background-position: center center;
+}
+
+.hero-2 {
+  height: 1200px;
 }
 
 .row {

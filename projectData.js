@@ -113,6 +113,24 @@ and Manga3.net.`,
   ],
   postFunctions: []
   },
+  dropbloq: {
+    name: "DropBloq",
+    description: `DropBloq is an online puzzle game which I made with <a href='http://www.gytdau.com/'>Gytis Daujotas</a> and Cormac Kinsella, in one weekend.
+    It is built on JavaScript, HTML and CSS.`,
+    favicon: "",
+    returnLink: "project.html",
+    returnDisplay: "Return To Projects",
+    links: ["http://www.dropbloq.com/", "https://github.com/gytdau/dropbloq"],
+    linkDisplays: ["DropBloq.com", "Github"],
+    stylesheet: projectCSSDirectory + "dropbloq.css",
+    numRows: 3,
+    rows: [
+      {},
+      {},
+      {}
+    ],
+    postFunctions: []
+  },
   default: {
     name: "Projects",
     description: `Here is a list of many projects which I have participated in.`,
