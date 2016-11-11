@@ -1,6 +1,7 @@
 #default-1 {
-  background: url("../../resources/index-1.jpg");
+  background: url("../../resources/default-1.jpg");
   background-size: cover;
+  background-position: center center;
 }
 
 #default-2 {
