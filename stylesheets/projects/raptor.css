@@ -1,13 +1,14 @@
 #raptor-1 {
-  background: url("../../resources/raptor-1.png");
+  background-image: url("../../resources/raptor-1.png");
   background-size: cover;
 }
 
 #raptor-2 {
   background-image: url("../../resources/raptor-2.jpg");
+  background-size: cover;
 }
 
 #raptor-3 {
-  background: url("../../resources/raptor-3.png");
+  background-image: url("../../resources/raptor-3.png");
   background-size: cover;
 }
