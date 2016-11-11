@@ -30,6 +30,10 @@ img {
   background: #b8bbc1;
 }
 
+#btn-more-projects {
+  margin-top: 20px;
+}
+
 @media only screen and (max-width: 768px) {
    #social-img {
      display: none;
