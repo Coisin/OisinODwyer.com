@@ -1,6 +1,7 @@
 #tables-1 {
   background-image: url("../../resources/hero-tables-1.png");
   background-size: cover;
+  background-position: bottom left;
 }
 
 #tables-2 {
