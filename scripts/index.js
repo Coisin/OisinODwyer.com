@@ -1,8 +1,8 @@
 
-var projectTypes = ["Unique", "Creative", "Small", "Large"];
+var projectTypes = ["Creative", "Small", "Large", "Disgusting", "Ok", "Grand", "Fancy"];
 var projectTypeIndex = 0;
 
-var secondNames = ["O'Duibhir", "O'Dwyer"];
+var secondNames = ["O'Duibhir", "O'Dwyer", "The Great"];
 var secondNameIndex = 0;
 
 $(function() {
