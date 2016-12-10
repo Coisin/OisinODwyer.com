@@ -77,7 +77,7 @@ and Manga3.net.`,
     {},
     {},
     {
-      content: `    <h1>How it works?</h1>
+      content: `    <h1>How it works.</h1>
           <h4>If you want to download individual chapters, or all chapters of a manga series, MangaRaptor enables you to do so.</h4>
           <ul class="instruction-list">
             <li>Upon opening the application, type the name of the Manga Series into the Search Text Field, and click search. This
