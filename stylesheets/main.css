@@ -103,6 +103,7 @@ a:hover,  a:link, a:visited, a:focus, a:active {
 
 .overlay-title {
   font-size: 4em;
+  padding: 30px;
 }
 
 .overlay-top {

@@ -30,8 +30,45 @@ img {
   background: #b8bbc1;
 }
 
+.board {
+  background: #e3e8ef;
+  padding: 6px;
+  display: inline-block;
+  width: 120px;
+}
+
+.second-name-container, .project-type-container {
+  padding: 0;
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+.typing {
+  vertical-align: bottom;
+  overflow: hidden;
+  letter-spacing: .10em;
+  display: inline-block;
+  border-right: .15em solid orange; /* The typwriter cursor */
+  animation: blink-caret .75s infinite, type 5s;
+  width: 0;
+}
+
 #btn-more-projects {
   margin-top: 20px;
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
+@keyframes type {
+  from, to {
+    width: 0;
+  }
+  50% {
+    width: 100%;
+  }
 }
 
 @media only screen and (max-width: 768px) {
