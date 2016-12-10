@@ -2,7 +2,7 @@
 var projectTypes = ["Creative", "Small", "Large", "Disgusting", "Okay", "Grand", "Fancy", "Cringy"];
 var projectTypeIndex = 0;
 
-var secondNames = ["O'Duibhir", "O'Dwyer", "Fancy"];
+var secondNames = ["O'Duibhir", "O'Dwyer", "The Fancy"];
 var secondNameIndex = 0;
 
 $(function() {
@@ -18,7 +18,6 @@ function initializeLayout() {
     $(".project-list").append("<tr><td><a href='project.html?p="+i+"' class='project-listing grey-trans'>" + projectData[i].name + "</a></td></tr>");
   }
   shuffle(projectTypes);
-  shuffle(secondNames);
   setInterval(updateTransitions, 5000);
 }
 
