@@ -2,6 +2,7 @@ var projectCSSDirectory = "stylesheets/projects/";
 
 projectData = {
     tables: {
+    date: "September 2016",
     name: "Tables",
     description: `Tables is an implementation of the Java "JTable" class, supporting easily binding data structures
     to a table, within a Java Swing application. This project was development alongside my other application "MangaRaptor"
@@ -63,6 +64,7 @@ projectData = {
     postFunctions: []
   },
   raptor: {
+  date: "August 2016",
   name: "MangaRaptor",
   description: `MangaRaptor is an application built in Java, which allows you to download unlimited amounts of Manga,
 onto your computer, in the form of picture files, all for free! The images are scraped from a number of websites, such as MangaReader.net
@@ -99,6 +101,7 @@ and Manga3.net.`,
   postFunctions: []
   },
   examli: {
+    date: "June 2016",
   name: "Examli",
   description: `Examli is a quiz style revision helper for students in the Junior Certificate. During it's development, all the team were
   currently studying for the Junior Certificate and thus noticed the lack of a service like this. However, we were all aware of how effective
@@ -111,6 +114,11 @@ and Manga3.net.`,
   returnLink: "project.html",
   returnDisplay: "Return to Projects",
   creators: [
+    {
+      name: "Ois&#237n O'Duibhir",
+      link: "http://www.oisinodwyer.com/",
+      role: "Programmer"
+    },
     {
       name: "Gytis Daujotas",
       link: "http://www.gytdau.com",
@@ -135,6 +143,7 @@ and Manga3.net.`,
   postFunctions: []
   },
   dropbloq: {
+    date: "September 2016",
     name: "DropBloq",
     description: `DropBloq is an online puzzle game which I made with <a href='http://www.gytdau.com/'>Gytis Daujotas</a> and Cormac Kinsella, in one weekend.
     It is built on JavaScript, HTML and CSS.`,
@@ -144,8 +153,12 @@ and Manga3.net.`,
     links: ["http://www.dropbloq.com/", "https://github.com/gytdau/dropbloq"],
     linkDisplays: ["DropBloq.com", "Github"],
     stylesheet: projectCSSDirectory + "dropbloq.css",
-    numRows: 3,
     creators: [
+      {
+        name: "Ois&#237n O'Duibhir",
+        link: "http://www.oisinodwyer.com/",
+        role: "Programmer"
+      },
       {
         name: "Gytis Daujotas",
         link: "http://www.gytdau.com",
@@ -157,10 +170,41 @@ and Manga3.net.`,
         role: "Programmer"
       }
     ],
+    numRows: 3,
     rows: [
       {},
       {},
       {}
+    ],
+    postFunctions: []
+  },
+  habiten: {
+    status: "hidden",
+    date: "March 2016",
+    name: "Habiten",
+    description: `Habiten is an online web application for tracking your everyday habits. You can set goals to accoompolish,
+    as well tasks to be completed a stated number of times each day. Habiten also has a social aspect to it, in that you can
+    follow other users, and complete their challenges.`,
+    favicon: "",
+    returnLink: "project.html",
+    returnDisplay: "Return To Projects",
+    stylesheet: projectCSSDirectory + "habiten.css",
+    numRows: 2,
+    rows: [
+      {},
+      {}
+    ],
+    creators: [
+      {
+        name: "Ois&#237n O'Duibhir",
+        link: "http://www.oisinodwyer.com/",
+        role: "Programmer"
+      },
+      {
+        name: "Gytis Daujotas",
+        link: "http://www.gytdau.com",
+        role: "Programmer"
+      }
     ],
     postFunctions: []
   },
@@ -186,7 +230,8 @@ and Manga3.net.`,
       function() {
         for(var i in projectData) {
           if(i == "default") continue;
-          $(".project-list").append("<tr><td><a href='project.html?p=" + i + "' class='project-listing grey-trans'>" + projectData[i].name + "</a></td></tr>");
+          if(projectData[i].status != null && projectData[i].status == "hidden") continue;
+          $(".project-list").append("<tr><td><a href='project.html?p="+i+"' class='project-listing'>" + projectData[i].name + "<span class='emphasis seperator'>/</span><span class='list-hover text-muted'>"+projectData[i].date+"</span></a></td></tr>");
         }
       }
     ]

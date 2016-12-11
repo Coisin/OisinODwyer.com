@@ -205,6 +205,16 @@ li {
   width: 0;
 }
 
+.list-hover {
+  font-weight: bold;
+  transition: color .4s;
+  font-size: 40px;
+}
+
+.list-hover:hover {
+  color: #a8a8a8;
+}
+
 @keyframes blink-caret {
   from, to { border-color: transparent }
   50% { border-color: orange; }
