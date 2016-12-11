@@ -63,6 +63,42 @@ projectData = {
     ],
     postFunctions: []
   },
+  dropbloq: {
+    date: "September 2016",
+    name: "DropBloq",
+    description: `DropBloq is an online puzzle game which I made with <a href='http://www.gytdau.com/'>Gytis Daujotas</a> and Cormac Kinsella, in one weekend.
+    It is built on JavaScript, HTML and CSS.`,
+    favicon: "",
+    returnLink: "project.html",
+    returnDisplay: "Return To Projects",
+    links: ["http://www.dropbloq.com/", "https://github.com/gytdau/dropbloq"],
+    linkDisplays: ["DropBloq.com", "Github"],
+    stylesheet: projectCSSDirectory + "dropbloq.css",
+    creators: [
+      {
+        name: "Ois&#237n O'Duibhir",
+        link: "http://www.oisinodwyer.com/",
+        role: "Programmer"
+      },
+      {
+        name: "Gytis Daujotas",
+        link: "http://www.gytdau.com",
+        role: "Programmer"
+      },
+      {
+        name: "Cormac PJ Kinsella",
+        link: "https://twitter.com/mackydude12",
+        role: "Programmer"
+      }
+    ],
+    numRows: 3,
+    rows: [
+      {},
+      {},
+      {}
+    ],
+    postFunctions: []
+  },
   raptor: {
   date: "August 2016",
   name: "MangaRaptor",
@@ -141,42 +177,6 @@ and Manga3.net.`,
     {}
   ],
   postFunctions: []
-  },
-  dropbloq: {
-    date: "September 2016",
-    name: "DropBloq",
-    description: `DropBloq is an online puzzle game which I made with <a href='http://www.gytdau.com/'>Gytis Daujotas</a> and Cormac Kinsella, in one weekend.
-    It is built on JavaScript, HTML and CSS.`,
-    favicon: "",
-    returnLink: "project.html",
-    returnDisplay: "Return To Projects",
-    links: ["http://www.dropbloq.com/", "https://github.com/gytdau/dropbloq"],
-    linkDisplays: ["DropBloq.com", "Github"],
-    stylesheet: projectCSSDirectory + "dropbloq.css",
-    creators: [
-      {
-        name: "Ois&#237n O'Duibhir",
-        link: "http://www.oisinodwyer.com/",
-        role: "Programmer"
-      },
-      {
-        name: "Gytis Daujotas",
-        link: "http://www.gytdau.com",
-        role: "Programmer"
-      },
-      {
-        name: "Cormac PJ Kinsella",
-        link: "https://twitter.com/mackydude12",
-        role: "Programmer"
-      }
-    ],
-    numRows: 3,
-    rows: [
-      {},
-      {},
-      {}
-    ],
-    postFunctions: []
   },
   habiten: {
     status: "hidden",
