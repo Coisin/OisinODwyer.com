@@ -31,6 +31,15 @@ a:hover,  a:link, a:visited, a:focus, a:active {
   color: rgb(178, 184, 193);
 }
 
+.btn-overlay .btn-return {
+  position: fixed;
+  right: 100px;
+  top: 50px;
+  z-index: 11;
+  background: #1f1f21;
+  opacity: .4;
+}
+
 .row-mobile .btn-return {
   border: none;
   border-bottom: 1px dotted rgb(178, 184, 193);
