@@ -231,7 +231,7 @@ and Manga3.net.`,
         for(var i in projectData) {
           if(i == "default") continue;
           if(projectData[i].status != null && projectData[i].status == "hidden") continue;
-          $(".project-list").append("<tr><td><a href='project.html?p="+i+"' class='project-listing'>" + projectData[i].name + "<span class='emphasis seperator'>/</span><span class='list-hover text-muted'>"+projectData[i].date+"</span></a></td></tr>");
+          $(".project-list").append("<tr><td><a href='project.html?p="+i+"' class='project-listing'><span class='project-name'>"+projectData[i].name+"</span><span class='emphasis seperator'>/</span><span class='list-hover text-muted'>"+projectData[i].date+"</span></a></td></tr>");
         }
       }
     ]

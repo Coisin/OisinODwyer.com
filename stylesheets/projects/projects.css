@@ -39,6 +39,10 @@
   list-style-type: decimal;
 }
 
+.project-name {
+  display: inline;
+}
+
 #developers-title {
   margin-left: 30px;
   margin-bottom: 30px;
