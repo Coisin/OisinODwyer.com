@@ -5,8 +5,8 @@ projectData = {
     date: "September 2016",
     name: "Tables",
     description: `Tables is an implementation of the Java "JTable" class, supporting easily binding data structures
-    to a table, within a Java Swing application. This project was development alongside my other application "MangaRaptor"
-    due to the difficulty in managing tables efficiently.`,
+    to a table, within a Java Swing application. This project was developed alongside my other application "MangaRaptor"
+    due to my difficulty in managing tables efficiently.`,
     links: ["https://www.github.com/coisin/javatables", "https://github.com/Coisin/JavaTables/releases/latest"],
     linkDisplays: ["Github.com/Coisin/JavaTables", "Download"],
     stylesheet: projectCSSDirectory +"tables.css",
