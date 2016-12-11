@@ -264,7 +264,7 @@ li {
   .row-no-mobile {
     display: none;
   }
-  .overlay {
+  .overlay, .btn-overlay {
     display: none;
   }
   .scroll-fixed {
