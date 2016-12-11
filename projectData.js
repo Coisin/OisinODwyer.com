@@ -210,7 +210,7 @@ and Manga3.net.`,
   },
   default: {
     name: "Projects",
-    description: `Here is a list of many projects which I have participated in.`,
+    description: `Below is a list of many projects which I have participated in.`,
     favicon: "resources/avatar.png",
     returnLink: "index.html",
     returnDisplay: "Return to Ois&#237n O'Duibhir.com",
