@@ -11,6 +11,10 @@ a {
   text-decoration: none !important;
 }
 
+.title {
+  font-size: 40px;
+}
+
 .complete-transition {
   transition: all .5s;
 }
@@ -44,7 +48,6 @@ a:hover,  a:link, a:visited, a:focus, a:active {
 .project-list-lg tr {
   height: 150px;
   border-bottom: 1px solid #d9dce0;
-
   font-size: 150%;
 }
 
@@ -116,6 +119,10 @@ a:hover,  a:link, a:visited, a:focus, a:active {
   background-position: center center;
 }
 
+.hero-flexible {
+  height: auto;
+}
+
 .hero-2 {
   height: 1200px;
 }
@@ -168,6 +175,11 @@ li {
 
 .scroll-fixed {
   background-attachment: fixed !important;
+}
+
+.seperator {
+  vertical-align: -15%;
+  font-size: 70px;
 }
 
 .board {

@@ -9,7 +9,6 @@
   background-size: cover;
 }
 
-#examli-3 {
-  background-image: url("../../resources/examli-3.png");
-  background-size: cover;
+.row:nth-child(2n) {
+  background: #eff1f4;
 }

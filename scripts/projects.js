@@ -21,6 +21,12 @@ function initializeLayout() {
     $(".container-fluid").append("<div class='row hero " + (project.rows[i - 1].class == null?"":project.rows[i - 1].class + " ") +(i % 2 == 0?"scroll-fixed":"")+"' id='"+projectType+"-"+i+"'></div>");
     $("#"+projectType+"-"+i).html(project.rows[i - 1].content);
   }
+  if(project.creators != null && project.creators.length != 0) {
+    $(".container-fluid").append("<div class='row hero' id='team-list'><table class='project-list project-list-lg team-listing'></table></div>");
+    project.creators.forEach(function(creatorObject, index) {
+      $(".team-listing").append("<tr><td><a href='"+creatorObject.link+"' >"+creatorObject.name+"<span class='emphasis seperator'>/</span><span class='team-role'>"+creatorObject.role+"</span></a></td></tr>");
+    });
+  }
   $(".btn-return").attr("href", project.returnLink).html(project.returnDisplay);
   for(var i = 0;i < project.postFunctions.length;i++) {
     project.postFunctions[i]();
@@ -35,7 +41,6 @@ function postInitialization() {
 
   totalFadeHeight = 400;
   setOverlayOpacity();
-
 }
 
 function getQueryVariable(variable)

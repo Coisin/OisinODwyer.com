@@ -1,5 +1,5 @@
 
-var projectTypes = ["Creative", "Small", "Large", "Disgusting", "Okay", "Grand", "Fancy", "Cringy"];
+var projectTypes = ["Creative", "Small", "Disgusting", "Okay", "Grand", "Fancy", "Cringy"];
 var projectTypeIndex = 0;
 
 var secondNames = ["O'Duibhir", "O'Dwyer", "The Fancy"];
@@ -18,6 +18,7 @@ function initializeLayout() {
     $(".project-list").append("<tr><td><a href='project.html?p="+i+"' class='project-listing grey-trans'>" + projectData[i].name + "</a></td></tr>");
   }
   shuffle(projectTypes);
+  shuffle(secondNames);
   setInterval(updateTransitions, 5000);
 }
 
@@ -47,14 +48,4 @@ function updateTransitions() {
     .html(secondNames[secondNameIndex])
     .fadeIn();
   });
-}
-
-function shuffle(a) {
-    var j, x, i;
-    for (i = a.length; i; i--) {
-        j = Math.floor(Math.random() * i);
-        x = a[i - 1];
-        a[i - 1] = a[j];
-        a[j] = x;
-    }
 }

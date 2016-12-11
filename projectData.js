@@ -3,8 +3,9 @@ var projectCSSDirectory = "stylesheets/projects/";
 projectData = {
     tables: {
     name: "Tables",
-    description: `Tables is an implementation of the Java JTable class, which allows you to easily bind data structures
-    to tables in your Java Swing applications.`,
+    description: `Tables is an implementation of the Java "JTable" class, supporting easily binding data structures
+    to a table, within a Java Swing application. This project was development alongside my other application "MangaRaptor"
+    due to the difficulty in managing tables efficiently.`,
     links: ["https://www.github.com/coisin/javatables", "https://github.com/Coisin/JavaTables/releases/latest"],
     linkDisplays: ["Github.com/Coisin/JavaTables", "Download"],
     stylesheet: projectCSSDirectory +"tables.css",
@@ -55,7 +56,8 @@ projectData = {
 
             seriesTable.addManyRows(series);
           </code>
-        </pre>`
+        </pre>`,
+        class: "hero-flexible"
       }
     ],
     postFunctions: []
@@ -93,21 +95,40 @@ and Manga3.net.`,
           </ul>`
     },
   ],
+  creators: [],
   postFunctions: []
   },
   examli: {
   name: "Examli",
-  description: `Examli is an online application, written in Ruby On Rails, which is to help students study, in a quiz like
-  manor. I was one of two people who contributed to this project (The other being <a href="http://www.gytdau.com/">Gytis Daujotas</a>).`,
+  description: `Examli is a quiz style revision helper for students in the Junior Certificate. During it's development, all the team were
+  currently studying for the Junior Certificate and thus noticed the lack of a service like this. However, we were all aware of how effective
+  services such as Duolingo were, where you were consistently being but to a deadline for certain tests. This is what sparked the development of
+  Examli.`,
   links: ["http://www.exam.li/"],
   linkDisplays: ["Exam.li"],
   stylesheet: projectCSSDirectory +"examli.css",
   favicon: "",
   returnLink: "project.html",
   returnDisplay: "Return to Projects",
-  numRows: 3,
+  creators: [
+    {
+      name: "Gytis Daujotas",
+      link: "http://www.gytdau.com",
+      role: "Programmer"
+    },
+    {
+      name: "Kevin Andrei",
+      link: "https://twitter.com/ChungWung",
+      role: "Content Creator"
+    },
+    {
+      name: "Cormac PJ Kinsella",
+      link: "https://twitter.com/mackydude12",
+      role: "Content Creator"
+    }
+  ],
+  numRows: 2,
   rows: [
-    {},
     {},
     {}
   ],
@@ -124,6 +145,18 @@ and Manga3.net.`,
     linkDisplays: ["DropBloq.com", "Github"],
     stylesheet: projectCSSDirectory + "dropbloq.css",
     numRows: 3,
+    creators: [
+      {
+        name: "Gytis Daujotas",
+        link: "http://www.gytdau.com",
+        role: "Programmer"
+      },
+      {
+        name: "Cormac PJ Kinsella",
+        link: "https://twitter.com/mackydude12",
+        role: "Programmer"
+      }
+    ],
     rows: [
       {},
       {},
@@ -137,6 +170,7 @@ and Manga3.net.`,
     favicon: "resources/avatar.png",
     returnLink: "index.html",
     returnDisplay: "Return to Ois&#237n O'Duibhir.com",
+    creators: [],
     numRows: 3,
     links: [],
     linkDisplays: [],

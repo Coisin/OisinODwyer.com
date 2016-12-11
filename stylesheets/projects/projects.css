@@ -18,6 +18,10 @@
   background: #eff0f2;
 }
 
+#team-list {
+  padding: 0;
+}
+
 .availability-table {
   width: 380px;
   background: #39393a;
@@ -33,6 +37,16 @@
 
 .instruction-list li {
   list-style-type: decimal;
+}
+
+.team-role {
+  font-weight: bold;
+  transition: color .4s;
+  font-size: 40px;
+}
+
+.team-role:hover {
+  color: #a8a8a8;
 }
 
 @media only screen and (max-width: 768px) {
