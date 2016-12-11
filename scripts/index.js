@@ -27,10 +27,11 @@ function updateTransitions() {
     projectTypeIndex = 0;
   }
   var projectTypeName = $("#project-type-name");
+  var projectTypeContainer = $(".typing-container:has(#project-type-name)");
   projectTypeName.fadeOut(function() {
     projectTypeName.remove()
-    .appendTo($(".project-type-container"))
-    .text(projectTypes[projectTypeIndex])
+    .appendTo(projectTypeContainer)
+    .html(projectTypes[projectTypeIndex])
     .fadeIn();
   });
   secondNameIndex++;
@@ -39,10 +40,11 @@ function updateTransitions() {
     secondNameIndex = 0;
   }
   var secondName = $("#second-name");
+  var secondNameContainer = $(".typing-container:has(#second-name)");
   secondName.fadeOut(function() {
     secondName.remove()
-    .appendTo($(".second-name-container"))
-    .text(secondNames[secondNameIndex])
+    .appendTo(secondNameContainer)
+    .html(secondNames[secondNameIndex])
     .fadeIn();
   });
 }

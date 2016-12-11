@@ -170,6 +170,43 @@ li {
   background-attachment: fixed !important;
 }
 
+.board {
+  background: #e3e8ef;
+  padding: 6px;
+  display: inline-block;
+}
+
+.typing-container {
+  padding: 0;
+  display: inline-block;
+  vertical-align: bottom;
+  white-space: nowrap;
+}
+
+.typing {
+  vertical-align: bottom;
+  overflow: hidden;
+  letter-spacing: .10em;
+  display: inline-block;
+  border-right: .15em solid orange; /* The typwriter cursor */
+  animation: blink-caret .75s infinite, type 5s;
+  width: 0;
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
+@keyframes type {
+  from, to {
+    width: 0;
+  }
+  50% {
+    width: 100%;
+  }
+}
+
 @media only screen and (min-width: 769px) {
   .row {
     padding-left:3em;
