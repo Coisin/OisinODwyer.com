@@ -1,0 +1,11 @@
+
+#projectiles-1 {
+  background: url("../../resources/projectiles-1.png");
+  background-size: cover;
+  background-position: bottom center;
+  height: 100vh;
+}
+
+.row:nth-child(2n + 1) {
+  background: #fffdf4;
+}
