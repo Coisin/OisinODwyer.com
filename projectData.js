@@ -151,6 +151,7 @@ rows: [
   {},
   {},
   {
+    class: "hero-flexible",
     content: `    <h1>How it works.</h1>
         <h4>If you want to download individual chapters, or all chapters of a manga series, MangaRaptor enables you to do so.</h4>
         <ul class="instruction-list">
