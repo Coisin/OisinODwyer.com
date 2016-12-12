@@ -5,7 +5,7 @@ var projectiles = {
   name: "Projectiles",
   description: `Projectiles is a simple application for demonstrating concepts thought in Applied Maths(in the Leaving Certificate).
   Building projectiles has helped me understand many aspects of Applied Maths, and I hope to update it with many new features as I progress
-  through the course.`,
+  through the course. Projectiles is fully built using <span class="technology">Java</span> and it's Graphics libraries.`,
   links: ["http://www.github.com/coisin/projectiles"],
   linkDisplays: ["Github.com/Coisin/Projectiles"],
   favicon: "",
@@ -29,8 +29,8 @@ var projectiles = {
 var tables = {
 date: "September 2016",
 name: "Tables",
-description: `Tables is an implementation of the Java "JTable" class, supporting easily binding data structures
-to a table, within a Java Swing application. This project was development alongside my other application "MangaRaptor"
+description: `Tables is an implementation of the <span class="technology">Java</span> "JTable" class, supporting easily binding data structures
+to a table, within a <span class="technology">Java Swing</span> application. This project was development alongside my other application "MangaRaptor"
 due to the difficulty in managing tables efficiently.`,
 links: ["https://www.github.com/coisin/javatables", "https://github.com/Coisin/JavaTables/releases/latest"],
 linkDisplays: ["Github.com/Coisin/JavaTables", "Download"],
@@ -100,7 +100,7 @@ var dropbloq = {
   date: "September 2016",
   name: "DropBloq",
   description: `DropBloq is an online puzzle game which I made with <a href='http://www.gytdau.com/'>Gytis Daujotas</a> and Cormac Kinsella, in one weekend.
-  It is built on JavaScript, HTML and CSS.`,
+  It is built on <span class="technology">JavaScript,</span> <span class="technology">HTML</span> and <span class="technology">CSS.</span>`,
   favicon: "",
   returnLink: "project.html",
   returnDisplay: "Return To Projects",
@@ -136,7 +136,7 @@ var dropbloq = {
 var raptor = {
 date: "August 2016",
 name: "MangaRaptor",
-description: `MangaRaptor is an application built in Java, which allows you to download unlimited amounts of Manga,
+description: `MangaRaptor is an application built in <span class="technology">Java,</span> which allows you to download unlimited amounts of Manga,
 onto your computer, in the form of picture files, all for free! The images are scraped from a number of websites, such as MangaReader.net
 and Manga3.net.`,
 links: ["https://www.github.com/Coisin/MangaRaptor", "https://github.com/Coisin/MangaRaptor/releases/latest"],
@@ -184,7 +184,7 @@ name: "Examli",
 description: `Examli is a quiz style revision helper for students in the Junior Certificate. During it's development, all the team were
 currently studying for the Junior Certificate and thus noticed the lack of a service like this. However, we were all aware of how effective
 services such as Duolingo were, where you were consistently being but to a deadline for certain tests. This is what sparked the development of
-Examli.`,
+Examli.  Examli was built using <span class="technology">Ruby On Rails.</span>`,
 links: ["http://www.exam.li/"],
 linkDisplays: ["Exam.li"],
 stylesheet: projectCSSDirectory +"examli.css",
@@ -227,7 +227,8 @@ var habiten = {
   name: "Habiten",
   description: `Habiten is an online web application for tracking your everyday habits. You can set goals to accoompolish,
   as well tasks to be completed a stated number of times each day. Habiten also has a social aspect to it, in that you can
-  follow other users, and complete their challenges.`,
+  follow other users, and complete their challenges. Habiten was my first venture into <span class="technology">Ruby On Rails</span>
+  and so I learned a lot during it's development.`,
   favicon: "",
   returnLink: "project.html",
   returnDisplay: "Return To Projects",
