@@ -21,7 +21,9 @@ var projectiles = {
   ],
   numRows: 1,
   rows: [
-    {}
+    {
+      class: "row-no-mobile"
+    }
   ],
   postFunctions: []
 };
