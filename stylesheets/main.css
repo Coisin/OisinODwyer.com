@@ -40,12 +40,6 @@ a:hover,  a:link, a:visited, a:focus, a:active {
   opacity: .4;
 }
 
-.row-mobile .btn-return {
-  border: none;
-  border-bottom: 1px dotted rgb(178, 184, 193);
-  margin-bottom: 2em;
-}
-
 .btn-return:link, .btn-return:active, .btn-return:hover, .btn-return:focus, .btn-return:visited {
   color: rgb(178, 184, 193);
 }

@@ -14,6 +14,10 @@
   padding: 0;
 }
 
+#hero-project-mobile {
+  background: #828893;
+}
+
 .technology {
   color: orange;
 }
@@ -29,6 +33,19 @@
 .availability-table {
   width: 380px;
   background: #39393a;
+}
+
+.row-mobile .availability-table {
+  width: 100%;
+}
+
+.row-mobile .availability-table td {
+  background: #979aa0;
+  border-bottom: 1px solid #888b91;
+}
+
+.row-mobile .availability-table td:hover {
+  background: #8d929b;
 }
 
 .availability-table tr:hover {
