@@ -107,7 +107,7 @@ var dropbloq = {
   returnLink: "project.html",
   returnDisplay: "Return To Projects",
   links: ["http://www.dropbloq.com/", "https://github.com/gytdau/dropbloq"],
-  linkDisplays: ["DropBloq.com", "Github"],
+  linkDisplays: ["DropBloq.com", "Github.com/Gytdau/Dropbloq"],
   stylesheet: projectCSSDirectory + "dropbloq.css",
   creators: [
     {

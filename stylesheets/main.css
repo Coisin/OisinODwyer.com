@@ -220,6 +220,14 @@ li {
   color: #a8a8a8;
 }
 
+table {
+  table-layout: fixed;
+}
+
+td {
+  word-wrap: break-word;
+}
+
 @keyframes blink-caret {
   from, to { border-color: transparent }
   50% { border-color: orange; }
