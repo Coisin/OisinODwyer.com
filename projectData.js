@@ -1,5 +1,38 @@
 var projectCSSDirectory = "stylesheets/projects/";
 
+var examlearn = {
+  date: "July 2017 - Present",
+name: "ExamLearn",
+description: `Examlearn is an E-Learning service built for Irish students studying for their Leaving and Junior Certificates.
+ExamLearn offers a range of tools for it's users, including a State Exam Viewer, notes across a large range of subjects
+and quizzes to accompany these notes. ExamLearn was built using <span class='technology'>Ruby On Rails</span> and <span class='technology'>React.js</span>.`,
+links: ["https://www.examlearn.ie/"],
+linkDisplays: ["ExamLearn.ie"],
+stylesheet: projectCSSDirectory +"examlearn.css",
+favicon: "",
+returnLink: "project.html",
+returnDisplay: "Return To Projects",
+creators: [
+  {
+    name: "Ois&#237n O'Duibhir",
+    link: "http://www.oisinodwyer.com/",
+    role: "Programmer"
+  },
+  {
+    name: "Gytis Daujotas",
+    link: "http://www.gytdau.com",
+    role: "Programmer"
+  }
+],
+numRows: 3,
+rows: [
+  {},
+  {},
+  {}
+],
+postFunctions: []
+};
+
 var projectiles = {
   date: "November 2016",
   name: "Projectiles",
@@ -101,13 +134,13 @@ postFunctions: []
 var dropbloq = {
   date: "September 2016",
   name: "DropBloq",
-  description: `DropBloq is an online puzzle game which I made with <a href='http://www.gytdau.com/'>Gytis Daujotas</a> and Cormac Kinsella, in one weekend.
-  It is built on <span class="technology">JavaScript,</span> <span class="technology">HTML</span> and <span class="technology">CSS.</span>`,
+  description: `DropBloq was an online puzzle game which I made with <a href='http://www.gytdau.com/'>Gytis Daujotas</a> and Cormac Kinsella, in one weekend.
+  It was built using <span class="technology">JavaScript,</span> <span class="technology">HTML</span> and <span class="technology">CSS.</span>`,
   favicon: "",
   returnLink: "project.html",
   returnDisplay: "Return To Projects",
-  links: ["http://www.dropbloq.com/", "https://github.com/gytdau/dropbloq"],
-  linkDisplays: ["DropBloq.com", "Github.com/Gytdau/Dropbloq"],
+  links: ["https://github.com/gytdau/dropbloq"],
+  linkDisplays: ["Github.com/Gytdau/Dropbloq"],
   stylesheet: projectCSSDirectory + "dropbloq.css",
   creators: [
     {
@@ -183,12 +216,12 @@ postFunctions: []
 var examli = {
   date: "June 2016",
 name: "Examli",
-description: `Examli is a quiz style revision helper for students in the Junior Certificate. During it's development, all the team were
+description: `Examli was a quiz style revision helper for students in the Junior Certificate. During it's development, all the team were
 currently studying for the Junior Certificate and thus noticed the lack of a service like this. However, we were all aware of how effective
 services such as Duolingo were, where you were consistently being but to a deadline for certain tests. This is what sparked the development of
 Examli.  Examli was built using <span class="technology">Ruby On Rails.</span>`,
-links: ["http://www.exam.li/"],
-linkDisplays: ["Exam.li"],
+links: [],
+linkDisplays: [],
 stylesheet: projectCSSDirectory +"examli.css",
 favicon: "",
 returnLink: "project.html",
@@ -227,7 +260,7 @@ var habiten = {
   status: "hidden",
   date: "March 2016",
   name: "Habiten",
-  description: `Habiten is an online web application for tracking your everyday habits. You can set goals to accoompolish,
+  description: `Habiten is an online application for tracking your everyday habits. You can set goals to accoompolish,
   as well tasks to be completed a stated number of times each day. Habiten also has a social aspect to it, in that you can
   follow other users, and complete their challenges. Habiten was my first venture into <span class="technology">Ruby On Rails</span>
   and so I learned a lot during it's development.`,
@@ -285,11 +318,12 @@ var def = {
 };
 
 projectData = {
-  projectiles: projectiles,
+  examlearn: examlearn,
+  raptor: raptor,
   tables: tables,
   dropbloq: dropbloq,
-  raptor: raptor,
   examli: examli,
+  projectiles: projectiles,
   habiten: habiten,
   default: def
 };
